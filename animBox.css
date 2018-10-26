@@ -36,7 +36,7 @@ p {
    -webkit-animation-iteration-count:10;
   animation-name:myLine;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 3;
  }
 
  @keyframes myLine {
@@ -264,19 +264,19 @@ p {
 }
 
 @keyframes myDot {
-    0%   {border-bottom: red; left: 0px; top: 0px;}
+    0%   {border-bottom: pink; left: 0px; top: 0px;}
     25%  {border-left: yellow; left: 175px; top: 0px;}
-    50%  {border-top:  blue; left: 200px; top: 175px;}
-    75%  {border-right: green; left: 150px; top: 200px;}
-    100% {border-bottom: red; left: 150px; top: 0px;}
+    50%  {border-top:  orange; left: 200px; top: 175px;}
+    75%  {border-right: green; left: 0px; top: 175px;}
+    100% {border-bottom: pink; left: 0px; top: 0px;}
 }
 
 @-webkit-keyframes myDot {
-    0%   {border-bottom: red; left: 0px; top: 0px;}
-    25%  {border-left: yellow; left: 200px; top: 0px;}
-    50%  {border-top:  blue; left: 200px; top: 200px;}
-    75%  {border-right: green; left: 0px; top: 200px;}
-    100% {border-bottom: red; left: 0px; top: 0px;}
+    0%   {border-bottom: pink; left: 0px; top: 0px;}
+    25%  {border-left: yellow; left: 175px; top: 0px;}
+    50%  {border-top:  orange; left: 200px; top: 175px;}
+    75%  {border-right: green; left: 0px; top: 175px;}
+    100% {border-bottom: pink; left: 0px; top: 0px;}
 }
 
 img {
